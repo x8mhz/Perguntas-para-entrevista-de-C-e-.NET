@@ -1,7 +1,8 @@
 # Perguntas-para-entrevista-de-C-e-.NET
 
 O C# é uma linguagem compilada, tipada e gerenciada, o que isto significa?
-    R: Significa que o C# precisa de um compilador em um ambiente para executar os códigos antes de transforma-lo em código nativo, e é nesse ambiente que é gerenciado todas as        variáveis quais devem possuir sua tipagem pré-estabelecida no código fonte, que então será gerenciado pela runtime qual tratando diferentes linguagens além de desempenho       e segurança.
+
+R: Significa que o C# precisa de um compilador em um ambiente para executar os códigos antes de transforma-lo em código nativo, e é nesse ambiente que é gerenciado todas as        variáveis quais devem possuir sua tipagem pré-estabelecida no código fonte, que então será gerenciado pela runtime qual tratando diferentes linguagens além de desempenho       e segurança.
         
 O que diferencia uma linguagem compilada de uma interpretada?
     R: A linguagem compilada tem a execução atráves de uma aplicação que simula um sistema virtual onde gerará um novo código que será usado pela maquina, enquanto as                  interpretadas executam o código atraves código-fonte da aplicação através de um interpretador que controla o fluxo garantindo sua execução.
