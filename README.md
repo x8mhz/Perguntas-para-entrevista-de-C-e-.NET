@@ -1,32 +1,49 @@
 # Perguntas-para-entrevista-de-C-e-.NET
 
 O C# é uma linguagem compilada, tipada e gerenciada, o que isto significa?
-    R: Significa que o C# precisa de um compilador em um ambiente para executar os códigos antes de transforma-lo em código nativo, e é nesse ambiente que é gerenciado todas as variáveis quais devem possuir sua tipagem pré-estabelecida no código fonte, que então será gerenciado pela runtime qual tratando diferentes linguagens além de desempenho e segurança.
+    R: Significa que o C# precisa de um compilador em um ambiente para executar os códigos antes de transforma-lo em código nativo, e é nesse ambiente que é gerenciado todas as        variáveis quais devem possuir sua tipagem pré-estabelecida no código fonte, que então será gerenciado pela runtime qual tratando diferentes linguagens além de desempenho       e segurança.
         
 O que diferencia uma linguagem compilada de uma interpretada?
-    R: A linguagem compilada tem a execução atráves de uma aplicação que simula um sistema virtual onde gerará um novo código que será usado pela maquina, enquanto as interpretadas executam o código atraves código-fonte da aplicação através de um interpretador que controla o fluxo garantindo sua execução.
+    R: A linguagem compilada tem a execução atráves de uma aplicação que simula um sistema virtual onde gerará um novo código que será usado pela maquina, enquanto as                  interpretadas executam o código atraves código-fonte da aplicação através de um interpretador que controla o fluxo garantindo sua execução.
     
 Explique como o C# funciona
-    R: C# funciona através de um ambiente de execução que compila o código fonte em bytecode, que na plataforma .NET é chamada de Common Intermediate Language (CIL), para então através do Common Language Runtime (CLR) ser convertido em código nativo.
+    R: C# funciona através de um ambiente de execução que compila o código fonte em bytecode, que na plataforma .NET é chamada de Common Intermediate Language (CIL), para então        através do Common Language Runtime (CLR) ser convertido em código nativo.
     
 O que é o CLR?
-    R: CLR é um componente do ambiente de execução da plataforma .NET onde o código compilado pela CLI será compilado pela Runtime. A Common Language Runtime ou CLR quem tem a função de pegar o código em bytecode (neutro) e tornar legível para a CPU (código nativo). 
+    R: CLR é um componente do ambiente de execução da plataforma .NET onde o código compilado pela CLI será compilado pela Runtime. A Common Language Runtime ou CLR quem tem a         função de pegar o código em bytecode (neutro) e tornar legível para a CPU (código nativo). 
     
 O que é IL?
-    R: Intermediate Language ou Common Intermediate Language (CIL) é um ambiente neutro da Microsoft que permite que diferentes linguagens de programação seja compilada de forma unica para que então a CLR tranforme-a em código de maquina (código nativo).
+    R: Intermediate Language ou Common Intermediate Language (CIL) é um ambiente neutro da Microsoft que permite que diferentes linguagens de programação seja compilada de             forma unica para que então a CLR tranforme-a em código de maquina (código nativo).
     
 O que é um Framework?
-    R: É uma abstração que une código comuns entre vários projetos de software provendo uma funcionalidade específica. E diferente das bibliotecas, o framework quem dita o fluxo de controle da aplicação.
+    R: É uma abstração que une código comuns entre vários projetos de software provendo uma funcionalidade específica. E diferente das bibliotecas, o framework quem dita o             fluxo de controle da aplicação.
     
 O que é o .NET?
+    R: É uma plataforma de desenvolvimento open-source criada pela Microsoft, que é composta por uma bilbioteca padrão, um compilador e uma maquina virtual. Nela você pode         programar em C# VB.NET e F#
+    
 O que é o .NET Standard?
+    R: É uma diretriz da API do .NET que permite o compartilhamento de código entre .NET Framework e o .NET, por exemplo o .NET Core.
+    
 Explique o que é versão semântica
+    R: Versão Semântica ou SemVer é um conjunto de regras e requerimentos para atribuição de versão de software que tenta solucionar o problemas ao lidar com versões de pacotes    de software em diferentes versões.
+    
 O que significa LTS na versão do software?
+    R: LTS ou Long-Time Suport é um versionamento de software ou edição que foi projetada para ter um longo tempo de suporte.
+    
 O que é um Runtime?
+    R: É o período em que um programa de computador permanece em execução. Runtime também pode se referir a uma máquina virtual que gerencia um programa escrito em uma             linguagem de computador enquanto está sendo executado.
+    
 O que é um SDK?
+    R: É um conjunto de biblioteca e ferramentas que permitem aos desenvolvedores criar aplicativos e bibliotecas.
+    
 O que é um CLI?
+    R: CLI ou Command-Line Interface (ILC em português), é um programa que permite que os usuários digitem comandos de textos ou instruções a um computador para fazer funcões      especificas.
+    
 Cite 3 tipos de projetos que temos no .NET
+    R: WebAPI, Web e Windows Forms
+    
 O que é uma Solution?
+
 Qual comando para executar uma aplicação .NET?
 Qual comando para compilar uma aplicação .NET?
 Qual comando para publicar uma aplicação .NET?
